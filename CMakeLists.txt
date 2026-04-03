@@ -1072,12 +1072,14 @@ endif()
 
 target_sources(${PROJECT_NAME} PRIVATE
 		core/build.h
+		core/chd.h
 		core/cheats.cpp
 		core/cheats.h
 		core/emulator.h
 		core/nullDC.cpp
 		core/serialize.cpp
 		core/serialize.h
+		core/stbi.h
 		core/stdclass.cpp
 		core/stdclass.h
 		core/types.h
